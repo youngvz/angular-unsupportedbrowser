@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { UnsupportedBrowsersComponent } from './unsupported-browsers/unsupported-browsers.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UnsupportedBrowsersComponent
   ],
   imports: [
     BrowserModule
